@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Discord Webhook Sender by sterZi</title>
+  <meta name="author" content="sterZi">
+  <meta name="description" content="Discord webhook sender scripted & created by sterZi">
+  <meta name="title" content="Discord Webhook sender">
+  <link rel="stylesheet" href="magia.css" type="text/css">
+  <style>
+.alert {
+  padding: 20px;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+</style>
+</head>
+<body>
+
+
+<div class="alert">
+  <center>You found a bug? Contant me on Discord: sterZi#0007</center>
+</div>
+    <div id="header">
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <input type="text" id="username" placeholder="[OPTIONAL] Username of Webhook" style="border-radius: 12px">
+        <input type="text" id="avatar" placeholder="[OPTIONAL] Avatar URL of webhook" style="border-radius: 12px">
+		<input type='text' id="link" placeholder="Discord Webhook URL" style="border-radius: 12px">
+		<input type="text" id="content" placeholder="Content of your Webhook message" style="border-radius: 12px">
+        <br>
+        <button id="btn">Send</button> 
+        <center>
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
