@@ -46,10 +46,35 @@ a, a:visited {
     color: rgb(129, 129, 129)
 }
 
-#link, #username, #content, #avatar {
+#link {
     font-size: 25px;
     background-color: #4a4a4a;
     width: 75%;
+	margin-top: 5px;
+    padding: 20px;
+}
+
+#username {
+	font-size: 25px;
+    background-color: #4a4a4a;
+    width: 75%;
+	margin-top: 5px;
+    padding: 20px;
+}
+
+#content {
+	font-size: 25px;
+    background-color: #4a4a4a;
+    width: 75%;
+	margin-top: 5px;
+    padding: 20px;
+}
+
+#avatar {
+	font-size: 25px;
+    background-color: #4a4a4a;
+    width: 75%;
+	margin-top: 5px;
     padding: 20px;
 }
 
